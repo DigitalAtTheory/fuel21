@@ -15,6 +15,9 @@
 	}
 </script>
 
+<svlete:head>
+	<title>{currentIssue.name}</title>
+</svlete:head>
 <div class="p-4">
 	<img class="mx-auto" src={currentIssue.issue} alt={currentIssue.name} />
 </div>
